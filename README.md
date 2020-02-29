@@ -1,8 +1,5 @@
 # Distributed Systems
 A project consisting of different distributed system architectures written in Java.
-
-# Distributed Auction house
-A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course
 \
 \
 **Summary**
@@ -15,6 +12,9 @@ A project consisting of a client-server architecture written as part of a final 
 * UDP _(UDP instead of TCP being used)_
 * UDP_Miniproject _(UDP modified for a school assignment)_
 * UDP_Reliable _(UDP made "reliable" as part of a school assignment)_
+
+# Distributed Auction house
+A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course
 
 # PWC Case
 **Producer** \
