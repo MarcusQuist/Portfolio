@@ -15,7 +15,8 @@ A project consisting of different distributed system architectures written in Ja
 
 # Distributed Auction house
 A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course
-
+\
+Documentation and usage guide has been placed within the folder under the file-name "Documentation".
 # PWC Case
 **Producer** \
 It has been assumed that a Kafka Producer may send more than one record.\
