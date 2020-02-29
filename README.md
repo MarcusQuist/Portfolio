@@ -12,7 +12,7 @@ E.g.: dataDir=C:/Users/Name/Desktop/kafka/data/zookeeper
 
 **server.properties:**  
 #60: log.dirs=.../kafka/data/kafka\
-E.g. log.dirs=C:/Users/Marcu/Desktop/kafka/data/kafka
+E.g. log.dirs=C:/Users/Name/Desktop/kafka/data/kafka
 
 A topic for testing has been created with the following properties:\
 kafka-topics --zookeeper 127.0.0.1:2181 --topic new-client --create --partitions 3 --replication-factor 1
