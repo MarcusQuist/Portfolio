@@ -2,7 +2,9 @@
 A project consisting of different distributed system architectures written in Java.
 
 # Distributed Auction house
-A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course.\
+A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course
+\
+\
 **Summary**
 * ClientServer _(Echo Server)_
 * ClientServerManaged _(Multiple servers / channels)_
