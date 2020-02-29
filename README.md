@@ -1,4 +1,4 @@
-# Distributed_Systems
+# Distributed Systems
 A project consisting of different distributed system architectures written in Java.
 
 # Distrubted Auction house
