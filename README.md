@@ -2,7 +2,17 @@
 A project consisting of different distributed system architectures written in Java.
 
 # Distributed Auction house
-A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course.
+A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course.\
+** Summary **
+* ClientServer (Echo Server)
+* ClientServerManaged (Multiple servers / channels)
+* ClientServerMulti (Simple Client-Server Architecture without channels)
+* P2P (Peer-to-Peer)
+* PublishSubscribe (Publish-Subscribe Architecture without a broker)
+* PublishSubscribeBroker (Publish-Subscribe Architecture with a broker)
+* UDP (UDP instead of TCP being used)
+* UDP_Miniproject (UDP modified for a school assignment)
+* UDP_Reliable (UDP made "reliable" as part of a school assignment)
 
 # PWC Case
 **Producer**
