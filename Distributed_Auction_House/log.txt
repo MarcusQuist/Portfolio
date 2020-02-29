@@ -1,0 +1,34 @@
+-- Log documenting a correct system run under failures --
+
+Primary server: "Successfully created the primary server!"
+Backup server: "Successfully created the backup server!"
+Primary server: "Established connection to backup"
+Primary server: "Successfully created session with /192.168.0.58:62896: 62896"
+Backup server: "Successfully created session with /192.168.0.58:62897: 62897"
+Backup server: "Successfully created session with /127.0.0.1:62898: 62898"
+
+Client: "Trying to connect to the auction house.."
+Client: "Successfully connected!"
+
+Primary server: "Successfully created session with /192.168.0.58:62901: 62901"
+
+*Primary server crashes due to socket timeout limitation*
+
+Backup server: "Primary server crashed!"
+Client: "bid 10"
+Client: "Bidding on the current auction with: 10"
+Client: "Server has crashed, attempting to reconnect"
+Backup server: "Successfully created session with /192.168.0.58:62907: 62907"
+Client: "Successfully connected!"
+Backup server: "Highest bidder: 192.168.0.58: 62907"
+Client: "Server: Bid accepted, your bid of 10 is now the highest."
+
+*new client connects*
+
+New client: "Trying to connect to the auction house.."
+New client: "Attempting to connect to backup server"
+New client: "Successfully connected!"
+Backup server: "Successfully created session with /192.168.0.58:62915: 62915"
+New client: "result"
+New client: "Getting result of the current active auction"
+New client: "Server: The current active auction has the highest bid of: 10"
