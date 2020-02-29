@@ -15,11 +15,11 @@ A project consisting of a client-server architecture written as part of a final 
 * UDP_Reliable _(UDP made "reliable" as part of a school assignment)_
 
 # PWC Case
-**Producer**
+**Producer** \
 It has been assumed that a Kafka Producer may send more than one record.\
 The user is asked to enter a clientId and clientName for each record to be sent.
 
-**Consumer**
+**Consumer** \
 It issumed that new consumers must not be met with all prior data sent to the topic –  only the data sent after the consumer has joined. \
 In order to run the Kafka Consumer program, a groupId must be given as the first argument.
 
