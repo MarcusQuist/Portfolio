@@ -4,15 +4,15 @@ A project consisting of different distributed system architectures written in Ja
 # Distributed Auction house
 A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course.\
 ** Summary **
-* ClientServer (Echo Server)
-* ClientServerManaged (Multiple servers / channels)
-* ClientServerMulti (Simple Client-Server Architecture without channels)
-* P2P (Peer-to-Peer)
-* PublishSubscribe (Publish-Subscribe Architecture without a broker)
-* PublishSubscribeBroker (Publish-Subscribe Architecture with a broker)
-* UDP (UDP instead of TCP being used)
-* UDP_Miniproject (UDP modified for a school assignment)
-* UDP_Reliable (UDP made "reliable" as part of a school assignment)
+* ClientServer _(Echo Server)_
+* ClientServerManaged _(Multiple servers / channels)_
+* ClientServerMulti _(Simple Client-Server Architecture without channels)_
+* P2P _(Peer-to-Peer)_
+* PublishSubscribe _(Publish-Subscribe Architecture without a broker)_
+* PublishSubscribeBroker _(Publish-Subscribe Architecture with a broker)_
+* UDP _(UDP instead of TCP being used)_
+* UDP_Miniproject _(UDP modified for a school assignment)_
+* UDP_Reliable _(UDP made "reliable" as part of a school assignment)_
 
 # PWC Case
 **Producer**
