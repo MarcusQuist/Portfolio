@@ -1,6 +1,9 @@
 # Distributed_Systems
 A project consisting of different distributed system architectures written in Java.
 
+# Distrubted Auction house
+A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course.
+
 # PWC Case
 Instructions on how to use the implementations are written in the PDF attached to the email conversation. 
 
