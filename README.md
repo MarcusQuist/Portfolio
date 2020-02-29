@@ -3,7 +3,7 @@ A project consisting of different distributed system architectures written in Ja
 
 # Distributed Auction house
 A project consisting of a client-server architecture written as part of a final exam within the Mobile and Distributed Systems course.\
-** Summary **
+**Summary**
 * ClientServer _(Echo Server)_
 * ClientServerManaged _(Multiple servers / channels)_
 * ClientServerMulti _(Simple Client-Server Architecture without channels)_
