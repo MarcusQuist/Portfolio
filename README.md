@@ -58,3 +58,5 @@ A React project using the Spotify API to extend a user's functionality.
     * A genre
 * The playlist generated from the two options above can be saved directly to the user's Spotify account
 * The user can search for songs and add them to an album which can be saved directly to their Spotify account
+\\
+![alt text](https://i.imgur.com/RY3A89N.jpg)
