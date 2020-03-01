@@ -4,7 +4,7 @@ It has been assumed that a Kafka Producer may send more than one record.\
 The user is asked to enter a clientId and clientName for each record to be sent.
 
 **Consumer** \
-It issumed that new consumers must not be met with all prior data sent to the topic –  only the data sent after the consumer has joined. \
+It issumed that new consumers must not be met withprior  data sent to the topic –  only the data sent after the consumer has joined. \
 In order to run the Kafka Consumer program, a groupId must be given as the first argument.
 
 
