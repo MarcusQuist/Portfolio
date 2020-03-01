@@ -70,15 +70,16 @@ A React project using the Spotify API to extend a user's functionality.
     * Visually showing the map through interconnected nodes
     * Visually showing the generated route to the user
 
-
 \
 **My most important contribution to the project**
+\
 I developed the route-search system. \
 This mainly included:
  * Dijkstra Shortest-Path Algorithm
  * Directed Edges
  * Edge Weighted Digraph
 \
+
 Hence, some algorithms which had to be finely tuned to fit to our programs data, which is a whole system of nodes extracted from .OSM files. 
 
 
