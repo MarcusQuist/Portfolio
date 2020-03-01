@@ -60,3 +60,22 @@ A React project using the Spotify API to extend a user's functionality.
 * The user can search for songs and add them to an album which can be saved directly to their Spotify account
 \\
 ![alt text](https://i.imgur.com/RY3A89N.jpg)
+
+# Danmarkskortet (Algorithm experience)
+"Danmarkskortet" is a proejct developed during my 2nd semester of my Software Development study. \
+**The project goals in short**
+  * Develop our own version of Google Maps from scratch.
+    * Searching for the shortest routes (Taking transport type into consideration (Car / Bike / Walking)
+    * Optimizing the program through algorithms (KD-Tree / Shortest-path algorithms)
+    \
+**My most important contribution to the project**
+I developed the route-search system. \
+This mainly included:
+ * Dijkstra Shortest-Path Algorithm
+ * Directed Edges
+ * Edge Weighted Digraph
+\
+Hence, some algorithms which had to be finely tuned to fit to our programs data, which is a whole system of nodes extracted from .OSM files. 
+
+
+
