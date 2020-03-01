@@ -79,8 +79,7 @@ This mainly included:
  * Directed Edges
  * Edge Weighted Digraph
 
-
-Hence, some algorithms which had to be finely tuned to fit to our programs data, which is a whole system of nodes extracted from .OSM files. 
+Furthermore, the algorithms had to be finely tuned to fit to our programs datastructure, which is a whole system of nodes extracted from .OSM files. 
 
 
 
