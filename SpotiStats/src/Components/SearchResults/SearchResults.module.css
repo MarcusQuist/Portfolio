@@ -1,0 +1,65 @@
+@import "../Colors.css";
+
+h2{
+  margin-bottom: 0px;
+  line-height: normal;
+}
+
+.SearchResults {
+    margin: 0 1%;
+    width: 45%;
+    height: 950px;
+    margin-bottom: 2rem;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(0, 35, 30, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6f6f6f;
+    padding-bottom: 0.5rem;
+  }
+
+  .searchButton {
+    cursor: pointer;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 54px;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: .833rem;
+    transition:  .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .searchButton:hover {
+    background-color: var(--primary-color-light);
+  }
+  
+  /* @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  } */
+
+
+  @media only screen and (min-width: 0px) and (max-width: 600px) {
+    .SearchResults{
+      width: 100%;
+      box-sizing: border-box;
+      margin: 2% 0;
+      height: 450px;
+    }
+  }

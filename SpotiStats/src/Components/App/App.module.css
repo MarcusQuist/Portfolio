@@ -1,0 +1,131 @@
+@import "../Colors.css";
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: .77rem 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: var(--primary-color);
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.bk{
+  background-color: var(--primary-color-dark);
+}
+
+.app {
+  padding: 0 5%;
+  background-image: url('./bk.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.appLogin {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 5%;
+  background-image: url('./bk.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.buttonLogin{
+  display: block;
+  margin: 0 auto;
+  width: 10rem;
+  height: 2rem;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  outline: none;
+
+  transition-property: width;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.buttonLogin:hover{
+  width: 12rem;
+  background-color: var(--primary-color-light);
+}
+
+.appPlaylist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-color-dark);
+  padding: 0 1rem;
+}
+
+.buttonLogout{
+  display: block;
+  margin: auto 0;
+  width: 10rem;
+  height: 2rem;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 54px;
+}
+
+.buttonLogout:hover{
+  background-color: var(--primary-color-light);
+}
+
+@media only screen and (max-width: 1020px) {
+  .AppPlaylist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 830px) {
+  .app {
+    padding: 0 1% !important;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .appPlaylist {
+    flex-direction: column;
+  }
+  .buttonLogout{
+    width: 5rem;
+  }
+}

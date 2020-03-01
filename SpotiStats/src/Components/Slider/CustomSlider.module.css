@@ -1,0 +1,28 @@
+@import "../Colors.css";
+
+.Container{
+    height: 4rem;
+    width: 20%;
+    margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h3{
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 551px) and (max-width: 700px) {
+    .Container{
+        margin: 3% 9%;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+    .Container{
+        margin: 0 8%;
+        width: 34%;
+    }
+}

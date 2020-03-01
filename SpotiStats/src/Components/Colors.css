@@ -1,0 +1,11 @@
+:root {
+    --primary-color-light: #00D386;
+    --primary-color: #00BA75;
+    --primary-color-dark: #00231E;
+    --secondary-color-light: #9effff;
+    --secondary-color: #64ffda;
+    --secondary-color-dark: #14cba8;
+    --abort-color-light: #D6334D;
+    --abort-color: #d21f3c;
+    --abort-color-dark: #BF1D37;
+}

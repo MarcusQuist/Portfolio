@@ -1,0 +1,65 @@
+@import "../Colors.css";
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  line-height: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.centerText{
+    text-align: center;
+}
+
+.container{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(14, 14, 14, 0.9);
+}
+
+.box{
+    position: relative;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: rgb(46, 46, 46);
+}
+
+.closeButton {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: .833rem;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    transition-property: width, height;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    right: 0;
+    outline: none;
+}
+
+.closeButton:hover {
+    background-color: var(--primary-color-light);
+}

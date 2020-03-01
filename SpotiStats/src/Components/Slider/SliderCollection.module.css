@@ -1,0 +1,54 @@
+@import "../Colors.css";
+
+
+.Container{
+    height: 15rem;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    overflow: hidden;
+}
+
+.ButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.Button{
+    cursor: pointer;
+    width: 11.5rem;
+    padding: .77rem 0;
+    border-radius: 54px;
+    background-color: var(--primary-color);
+    text-align: center;
+    white-space: nowrap;
+    font-size: .833rem;
+    transition: .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 1rem;
+    outline: none;
+  }
+  
+  .Button:hover {
+    background-color: var(--primary-color-light);
+  }
+
+  @media only screen and (min-width: 551px) and (max-width: 700px) {
+    .Container{
+        height: 25rem;
+        margin-bottom: 3%;
+    }
+}
+
+  @media only screen and (min-width: 0px) and (max-width: 550px) {
+    .Container{
+        height: 23rem;
+        margin-bottom: 5%;
+    }
+}
+

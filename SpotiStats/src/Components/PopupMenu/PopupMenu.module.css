@@ -1,0 +1,109 @@
+@import "../Colors.css";
+
+.marginBottom{
+    margin-bottom:5rem;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  line-height: normal;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.container{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(14, 14, 14, 0.9);
+}
+
+.box{
+    padding: 2rem;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(46, 46, 46);
+}
+
+.wrapperContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.subContainer{
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0.15rem;
+}
+
+.subContainer h3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.searchButton {
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100%;
+    max-width: 8rem;
+    padding: 0.8rem 0;
+    border-radius: 54px;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: .833rem;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    transition-property: width;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    outline: none;
+}
+
+.searchButton:hover {
+    width: 8rem;
+    background-color: var(--primary-color-light);
+}
+
+.closeButton {
+    margin-left: 95%;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: .833rem;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    transition-property: width, height;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    right: 0;
+    outline: none;
+}
+
+.closeButton:hover {
+    background-color: var(--primary-color-light);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 375px) {
+    h2{
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+    }
+
+  }
