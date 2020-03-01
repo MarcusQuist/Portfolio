@@ -67,7 +67,9 @@ A React project using the Spotify API to extend a user's functionality.
   * Develop our own version of Google Maps from scratch.
     * Searching for the shortest routes (Taking transport type into consideration (Car / Bike / Walking)
     * Optimizing the program through algorithms (KD-Tree / Shortest-path algorithms)
-    \
+    * Visually showing the map through interconnected nodes
+    * Visually showing the generated route to the user
+\
 **My most important contribution to the project**
 I developed the route-search system. \
 This mainly included:
