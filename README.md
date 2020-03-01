@@ -62,7 +62,7 @@ A React project using the Spotify API to extend a user's functionality.
 ![alt text](https://i.imgur.com/RY3A89N.jpg)
 
 # Danmarkskortet (Algorithm experience)
-"Danmarkskortet" is a proejct developed during my 2nd semester of my Software Development study. \
+"Danmarkskortet" is a project developed during my 2nd semester of my Software Development study. \
 **The project goals in short**
   * Develop our own version of Google Maps from scratch.
     * Searching for the shortest routes (Taking transport type into consideration (Car / Bike / Walking)
