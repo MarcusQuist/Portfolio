@@ -69,6 +69,8 @@ A React project using the Spotify API to extend a user's functionality.
     * Optimizing the program through algorithms (KD-Tree / Shortest-path algorithms)
     * Visually showing the map through interconnected nodes
     * Visually showing the generated route to the user
+
+
 \
 **My most important contribution to the project**
 I developed the route-search system. \
