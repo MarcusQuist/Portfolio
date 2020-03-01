@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import Draw.MapCanvas?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import java.net.URL?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Label?>
+<Scene xmlns="http://javafx.com/javafx"
+       xmlns:fx="http://javafx.com/fxml"
+       fx:controller="All.Controller"
+       fx:id="scene"
+       onKeyPressed="#onKeyPressed"
+
+>
+    <fx:define>
+        <Image fx:id="searchButtonImage" url="/All/Icons_PNG/searchButton.png"/>
+        <Image fx:id="routeButtonImage" url="/All/Icons_PNG/routeButton.png"/>
+        <Image fx:id="minusButtonImage" url="/All/Icons_PNG/buttons-03.png"/>
+        <Image fx:id="plusButtonImage" url="/All/Icons_PNG/buttons-02.png"/>
+        <Image fx:id="switchButtonImage" url="/All/Icons_PNG/buttons-04.png"/>
+        <Image fx:id="pointButtonImage" url="/All/Icons_PNG/buttons-05.png"/>
+        <Image fx:id="carButtonImage" url="/All/Icons_PNG/icons-06.png"/>
+        <Image fx:id="walkButtonImage" url="/All/Icons_PNG/icons-07.png"/>
+        <Image fx:id="bikeButtonImage" url="/All/Icons_PNG/icons-08.png"/>
+    </fx:define>
+
+    <root>
+        <StackPane prefHeight="800.0"
+                   prefWidth="1200.0">
+            <MapCanvas fx:id="mapCanvas"
+                       width="${scene.width}"
+                       height="${scene.height}"
+                       onMouseClicked="#onMouseHoverRoad"
+                       onScroll="#onScroll"
+                       onMousePressed="#onMousePressed"
+                       onMouseDragged="#onMouseDragged">
+            </MapCanvas>
+
+            <Label fx:id="roadText"
+                   maxWidth="500"
+                   maxHeight="50"
+                   StackPane.alignment="TOP_LEFT">
+                <StackPane.margin>
+                    <Insets top="20" left="20"/>
+                </StackPane.margin>
+            </Label>
+
+            <ListView   fx:id="routelist"
+                        styleClass="routeList"
+                        StackPane.alignment="TOP_RIGHT"
+                        maxWidth="370"
+                        maxHeight="400">
+                <StackPane.margin>
+                    <Insets top="185"/>
+                </StackPane.margin>
+            </ListView>
+
+            <Button fx:id="carButton"
+                    styleClass="carButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="45"
+                    maxWidth="123.333333"
+                    onMouseClicked="#onCarButtonClicked">
+                <StackPane.margin>
+                    <Insets top="145" right="246.666666"/>
+                </StackPane.margin>
+                <graphic>
+                    <ImageView image="$carButtonImage" fitHeight="35" fitWidth="100"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="walkButton"
+                    styleClass="walkButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="45"
+                    maxWidth="123.333333"
+                    onMouseClicked="#onWalkButtonClicked">
+                <StackPane.margin>
+                    <Insets top="145" right="123.333333"/>
+                </StackPane.margin>
+                <graphic>
+                    <ImageView image="$walkButtonImage" fitHeight="35" fitWidth="100"/>
+                </graphic>
+            </Button>
+
+            <Button fx:id="bikeButton"
+                    styleClass="bikeButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="45"
+                    maxWidth="123.333333"
+                    onMouseClicked="#onBikeButtonClicked">
+                <StackPane.margin>
+                    <Insets top="145"/>
+                </StackPane.margin>
+                <graphic>
+                    <ImageView image="$bikeButtonImage" fitHeight="35" fitWidth="100"/>
+                </graphic>
+            </Button>
+
+
+            <Label fx:id="meterMeasureText"
+                    maxWidth="75"
+                    maxHeight="50"
+                    StackPane.alignment="BOTTOM_LEFT">
+                <StackPane.margin>
+                    <Insets bottom="15" left="75"/>
+                </StackPane.margin>
+            </Label>
+
+            <TextField fx:id="searchField"
+                       styleClass="searchfield"
+                       prefHeight="45"
+                       maxWidth="300"
+                       onKeyTyped="#searchFieldKeyTyped"
+                       onKeyReleased="#searchFieldKeyReleased"
+                       StackPane.alignment="TOP_RIGHT"
+                       promptText="Search address here.."
+                       onMouseClicked="#searchFieldClicked">
+                <StackPane.margin>
+                    <Insets top="40" right="70"/>
+                </StackPane.margin>
+            </TextField>
+
+            <Button fx:id="searchButton"
+                    styleClass="searchButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="30"
+                    maxWidth="30"
+                    onMouseClicked="#searchButtonClicked">
+                <graphic>
+                    <ImageView image="$searchButtonImage" fitHeight="30" fitWidth="30"/>
+                </graphic>
+                <StackPane.margin>
+                    <Insets top="42" right="72"/>
+                </StackPane.margin>
+            </Button>
+
+            <Button fx:id="routeButton"
+                    styleClass="routeButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="45"
+                    maxWidth="45"
+                    onMouseClicked="#routeButtonClicked">
+                <graphic>
+                    <ImageView image="$routeButtonImage" fitHeight="33" fitWidth="33"/>
+                </graphic>
+                <StackPane.margin>
+                    <Insets top="40" right="10"/>
+                </StackPane.margin>
+            </Button>
+
+            <Button fx:id="pointButton"
+                    styleClass="pointButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="45"
+                    maxWidth="45"
+                    onMouseClicked="#pointButtonClicked">
+                <graphic>
+                    <ImageView image="$pointButtonImage" fitHeight="33" fitWidth="33"/>
+                </graphic>
+                <StackPane.margin>
+                    <Insets top="40" right="10"/>
+                </StackPane.margin>
+            </Button>
+
+            <TextField fx:id="routeSearchFrom"
+                       styleClass="searchfield"
+                       prefHeight="45"
+                       maxWidth="300"
+                       StackPane.alignment="TOP_RIGHT"
+                       promptText="From"
+                       onKeyTyped="#routeSearchFromKeyTyped"
+                       onKeyReleased="#routeSearchFromKeyReleased"
+                       onMouseClicked="#routeSearchFromClicked">
+                <StackPane.margin>
+                    <Insets top="40" right="70"/>
+                </StackPane.margin>
+            </TextField>
+
+            <TextField fx:id="routeSearchTo"
+                       styleClass="searchfield"
+                       prefHeight="45"
+                       maxWidth="300"
+                       StackPane.alignment="TOP_RIGHT"
+                       promptText="To"
+                       onKeyTyped="#routeSearchToKeyTyped"
+                       onKeyReleased="#routeSearchToKeyReleased"
+                       onMouseClicked="#routeSearchToClicked">
+                <StackPane.margin>
+                    <Insets top="90" right="70"/>
+                </StackPane.margin>
+            </TextField>
+
+            <Button fx:id="searchButtonRoute"
+                    styleClass="searchButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="30"
+                    maxWidth="30"
+                    onMouseClicked="#searchButtonRouteClicked">
+                <graphic>
+                    <ImageView image="$routeButtonImage" fitHeight="30" fitWidth="30"/>
+                </graphic>
+                <StackPane.margin>
+                    <Insets top="42" right="72"/>
+                </StackPane.margin>
+            </Button>
+
+            <Button fx:id="switchButton"
+                    styleClass="switchButton"
+                    StackPane.alignment="TOP_RIGHT"
+                    maxHeight="30"
+                    maxWidth="30"
+                    onMouseClicked="#routeSwitchButtonClicked">
+                <graphic>
+                    <ImageView image="$switchButtonImage" fitHeight="30" fitWidth="30"/>
+                </graphic>
+                <StackPane.margin>
+                    <Insets top="92" right="72"/>
+                </StackPane.margin>
+            </Button>
+
+
+            <Button fx:id="zoomPlus"
+                    styleClass="zoomplus"
+                    StackPane.alignment="BOTTOM_LEFT"
+                    maxHeight="10"
+                    maxWidth="10"
+                    onMouseClicked="#onZoomPlusPressed">
+                <graphic>
+                    <ImageView image="$plusButtonImage" fitHeight="10" fitWidth="10"/>
+                </graphic>
+                <StackPane.margin>
+                    <Insets bottom="155" left="5"/>
+                </StackPane.margin>
+            </Button>
+
+            <Slider fx:id="zoomSlider"
+                    styleClass="zoomslider"
+                    StackPane.alignment="BOTTOM_LEFT"
+                    value="1"
+                    min="1"
+                    max="30"
+                    showTickMarks="false"
+                    snapToTicks="true"
+                    minorTickCount="1"
+                    majorTickUnit="1"
+                    orientation="VERTICAL"
+                    maxHeight="120"
+                    maxWidth="5"
+                    onMouseReleased="#onZoomSliderReleased"
+            >
+                <StackPane.margin>
+                    <Insets bottom="35" left="10"/>
+                </StackPane.margin>
+            </Slider>
+
+            <Button fx:id="zoomMinus"
+                    styleClass="zoomminus"
+                    StackPane.alignment="BOTTOM_LEFT"
+                    maxHeight="10"
+                    maxWidth="10"
+                    onMousePressed="#onZoomMinusPressed">
+                <graphic>
+                    <ImageView image="$minusButtonImage" fitHeight="10" fitWidth="10"/>
+                </graphic>
+                <StackPane.margin>
+                    <Insets bottom="5" left="5"/>
+                </StackPane.margin>
+            </Button>
+
+            <MenuBar fx:id="menubar"
+                     styleClass="menubar"
+                     StackPane.alignment="TOP_CENTER">
+                <Menu fx:id="file" text="File"
+                      styleClass="file">
+                    <MenuItem fx:id="open" text="Open"
+                              styleClass="open"
+                              onAction="#onOpenClicked"
+                    />
+                </Menu>
+                <Menu fx:id="colors" text="Colors"
+                      styleClass="colors">
+                    <MenuItem fx:id="normal" text="Normal"
+                              styleClass="normal"
+                              onAction="#onNormalClicked"
+                    />
+                    <MenuItem fx:id="cb" text="Color blind"
+                              styleClass="cb"
+                              onAction="#onCbClicked"
+                    />
+                    <MenuItem fx:id="bw" text="Black and White"
+                              styleClass="bw"
+                              onAction="#onBwClicked"
+                    />
+                </Menu>
+                <Menu fx:id="poi" text="Point of interest"
+                      styleClass="poi">
+                    <MenuItem fx:id="marker" text="Normal marker"
+                              styleClass="marker"
+                              onAction="#onMarkerClicked"
+                    />
+                    <MenuItem fx:id="visit" text="To visit"
+                              styleClass="visit"
+                              onAction="#onVisitClicked"
+                    />
+                </Menu>
+
+            </MenuBar>
+            <ListView fx:id="searchResultsView"
+                      styleClass="listview"
+                      StackPane.alignment="TOP_RIGHT"
+                      maxHeight="115"
+                      maxWidth="300"
+                      onMousePressed="#searchResultsViewPressed"
+                      onKeyPressed="#searchResultsViewKeyPressed">
+                <StackPane.margin>
+                    <Insets top="85" right="70"/>
+                </StackPane.margin>
+            </ListView>
+
+            <ListView fx:id="routeResultsView"
+                      styleClass="listview"
+                      StackPane.alignment="TOP_RIGHT"
+                      maxHeight="115"
+                      maxWidth="300"
+                      onMousePressed="#routeResultsViewPressed"
+                      onKeyPressed="#routeResultsViewKeyPressed">
+                <StackPane.margin>
+                    <Insets top="135" right="70"/>
+                </StackPane.margin>
+            </ListView>
+
+
+            <stylesheets>
+                <URL value="@stylesheet.css"/>
+            </stylesheets>
+
+        </StackPane>
+    </root>
+</Scene>

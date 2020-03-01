@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="77.0">All</node>
+    <node x="58.5" y="0.0">Draw</node>
+    <node x="124.0" y="77.0">OSM</node>
+    <node x="0.0" y="149.0">Kd</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="All" target="Draw">
+      <point x="0.0" y="-13.5" />
+      <point x="52.0" y="52.0" />
+      <point x="86.25" y="52.0" />
+      <point x="-27.75" y="13.5" />
+    </edge>
+    <edge source="OSM" target="Draw">
+      <point x="0.0" y="-13.5" />
+      <point x="176.0" y="52.0" />
+      <point x="141.75" y="52.0" />
+      <point x="27.75" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="-3.3333333333332575" y="252.50000000000017" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

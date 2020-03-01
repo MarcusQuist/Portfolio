@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1039.5" y="357.0">Options</node>
+    <node x="675.5833333333333" y="145.0">OSMWay</node>
+    <node x="648.5944444444444" y="524.0">WindowView</node>
+    <node x="0.0" y="167.5">Draw</node>
+    <node x="247.16666666666663" y="156.5">Address</node>
+    <node x="206.5" y="356.5">SearchBar</node>
+    <node x="0.0" y="686.0">PointOfInterest</node>
+    <node x="470.5" y="313.0">Reader</node>
+    <node x="669.5" y="346.0">PolyLine</node>
+    <node x="824.5" y="368.0">Relation</node>
+    <node x="15.5" y="334.5">MapView</node>
+    <node x="582.5222222222221" y="11.0">OSMNode</node>
+    <node x="285.66666666666663" y="22.0">AddressRegex</node>
+    <node x="196.0" y="686.0">Route</node>
+    <node x="389.0" y="686.0">MultiPolyLine</node>
+    <node x="1254.5" y="379.0">GraphicalScale</node>
+    <node x="553.0" y="686.0">Controller</node>
+    <node x="53.0" y="0.0">WayType</node>
+    <node x="698.0" y="686.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Reader" target="OSMWay">
+      <point x="59.66666666666663" y="-80.5" />
+      <point x="619.6666666666666" y="288.0" />
+      <point x="709.4166666666666" y="288.0" />
+      <point x="-67.66666666666663" y="59.0" />
+    </edge>
+    <edge source="OSMWay" target="OSMNode">
+      <point x="0.0" y="-59.0" />
+      <point x="777.0833333333333" y="120.0" />
+      <point x="686.7722222222221" y="120.0" />
+      <point x="34.75" y="36.5" />
+    </edge>
+    <edge source="MapView" target="Draw">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="PolyLine" target="OSMWay">
+      <point x="0.0" y="-47.5" />
+      <point x="737.0" y="288.0" />
+      <point x="777.0833333333333" y="288.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="WindowView" target="SearchBar">
+      <point x="-20.25" y="-58.5" />
+      <point x="709.3444444444444" y="494.0" />
+      <point x="328.5" y="494.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="WindowView" target="GraphicalScale">
+      <point x="60.75" y="-58.5" />
+      <point x="790.3444444444444" y="504.0" />
+      <point x="1317.5" y="504.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Reader" target="OSMNode">
+      <point x="0.0" y="-80.5" />
+      <point x="560.0" y="120.0" />
+      <point x="617.2722222222221" y="120.0" />
+      <point x="-34.75" y="36.5" />
+    </edge>
+    <edge source="Relation" target="OSMWay">
+      <point x="0.0" y="-25.5" />
+      <point x="922.0" y="288.0" />
+      <point x="844.75" y="288.0" />
+      <point x="67.66666666666674" y="59.0" />
+    </edge>
+    <edge source="SearchBar" target="Address">
+      <point x="61.0" y="-37.0" />
+      <point x="389.5" y="288.0" />
+      <point x="369.16666666666663" y="288.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Draw" target="WayType">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="WindowView" target="Options">
+      <point x="20.25" y="-58.5" />
+      <point x="749.8444444444444" y="494.0" />
+      <point x="1137.0" y="494.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="WindowView" target="MapView">
+      <point x="-60.75" y="-58.5" />
+      <point x="668.8444444444444" y="504.0" />
+      <point x="101.0" y="504.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Address" target="AddressRegex">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Reader" target="Address">
+      <point x="-59.66666666666663" y="-80.5" />
+      <point x="500.33333333333337" y="288.0" />
+      <point x="450.5" y="288.0" />
+      <point x="81.33333333333337" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="591.5" y="307.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

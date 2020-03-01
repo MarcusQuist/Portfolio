@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="150.49999999999994" y="615.0">OSM.MultiPolyline</node>
+    <node x="200.99999999999997" y="932.0">OSM.Parser</node>
+    <node x="385.99999999999994" y="428.0">OSM.Relation</node>
+    <node x="328.81933333333336" y="143.0">OSM.Way</node>
+    <node x="119.14999999999998" y="1162.0">OSM.Model</node>
+    <node x="10.988666666666688" y="0.0">OSM.Node</node>
+    <node x="232.24999999999997" y="1075.0">OSM.Reader</node>
+    <node x="36.49999999999997" y="318.0">OSM.Polyline</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="OSM.Parser" target="OSM.Way">
+      <point x="126.0" y="-46.5" />
+      <point x="471.0" y="912.0" />
+      <point x="509.49999999999994" y="912.0" />
+      <point x="509.49999999999994" y="278.0" />
+      <point x="453.91933333333327" y="278.0" />
+      <point x="55.599999999999966" y="57.5" />
+    </edge>
+    <edge source="OSM.MultiPolyline" target="OSM.Way">
+      <point x="34.5" y="-123.5" />
+      <point x="322.99999999999994" y="298.0" />
+      <point x="370.5193333333333" y="298.0" />
+      <point x="-27.80000000000001" y="57.5" />
+    </edge>
+    <edge source="OSM.Model" target="OSM.Reader">
+      <point x="-127.19999999999999" y="-288.5" />
+      <point x="150.95" y="1122.0" />
+      <point x="254.24999999999997" y="1122.0" />
+      <point x="-22.0" y="13.5" />
+    </edge>
+    <edge source="OSM.Model" target="OSM.Parser">
+      <point x="63.60000000000002" y="-288.5" />
+      <point x="341.74999999999994" y="1045.0" />
+      <point x="381.0" y="1045.0" />
+      <point x="36.0" y="46.5" />
+    </edge>
+    <edge source="OSM.Parser" target="OSM.MultiPolyline">
+      <point x="-18.0" y="-46.5" />
+      <point x="327.0" y="882.0" />
+      <point x="288.49999999999994" y="882.0" />
+      <point x="0.0" y="123.5" />
+    </edge>
+    <edge source="OSM.Relation" target="OSM.Way">
+      <point x="0.0" y="-13.5" />
+      <point x="436.99999999999994" y="298.0" />
+      <point x="398.31933333333336" y="298.0" />
+      <point x="0.0" y="57.5" />
+    </edge>
+    <edge source="OSM.Polyline" target="OSM.Way">
+      <point x="2.8421709430404007E-14" y="-123.5" />
+      <point x="174.5" y="288.0" />
+      <point x="342.71933333333334" y="288.0" />
+      <point x="-55.60000000000002" y="57.5" />
+    </edge>
+    <edge source="OSM.Way" target="OSM.Node">
+      <point x="0.0" y="-57.5" />
+      <point x="398.31933333333336" y="123.0" />
+      <point x="126.82200000000003" y="123.0" />
+      <point x="46.33333333333334" y="46.5" />
+    </edge>
+    <edge source="OSM.Parser" target="OSM.Relation">
+      <point x="18.0" y="-46.5" />
+      <point x="363.0" y="882.0" />
+      <point x="436.99999999999994" y="882.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="OSM.Reader" target="OSM.Parser">
+      <point x="0.0" y="-13.5" />
+      <point x="276.24999999999994" y="1055.0" />
+      <point x="236.99999999999997" y="1055.0" />
+      <point x="-108.0" y="46.5" />
+    </edge>
+    <edge source="OSM.Parser" target="OSM.Node">
+      <point x="-126.0" y="-46.5" />
+      <point x="218.99999999999997" y="912.0" />
+      <point x="14.999999999999972" y="912.0" />
+      <point x="14.999999999999972" y="113.0" />
+      <point x="34.155333333333346" y="113.0" />
+      <point x="-46.33333333333334" y="46.5" />
+    </edge>
+    <edge source="OSM.MultiPolyline" target="OSM.Relation">
+      <point x="103.5" y="-123.5" />
+      <point x="391.99999999999994" y="590.0" />
+      <point x="402.99999999999994" y="590.0" />
+      <point x="-34.0" y="13.5" />
+    </edge>
+    <edge source="OSM.Parser" target="OSM.Polyline">
+      <point x="-54.0" y="-46.5" />
+      <point x="291.0" y="892.0" />
+      <point x="96.572" y="892.0" />
+      <point x="96.572" y="590.0" />
+      <point x="82.49999999999997" y="590.0" />
+      <point x="-92.0" y="123.5" />
+    </edge>
+    <edge source="OSM.MultiPolyline" target="OSM.Polyline">
+      <point x="-34.5" y="-123.5" />
+      <point x="253.99999999999994" y="590.0" />
+      <point x="266.5" y="590.0" />
+      <point x="92.00000000000003" y="123.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

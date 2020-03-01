@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="270.125" y="814.0">Draw.LoadColorMap</node>
+    <node x="361.875" y="110.0">Draw.WayType</node>
+    <node x="0.0" y="0.0">Draw.POINode</node>
+    <node x="84.75000000000003" y="297.0">Draw.MapCanvas</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Draw.MapCanvas" target="Draw.POINode">
+      <point x="-40.75000000000003" y="-233.5" />
+      <point x="69.0" y="123.5" />
+    </edge>
+    <edge source="Draw.LoadColorMap" target="Draw.WayType">
+      <point x="22.125" y="-68.5" />
+      <point x="380.75" y="784.0" />
+      <point x="421.25" y="784.0" />
+      <point x="11.875" y="13.5" />
+    </edge>
+    <edge source="Draw.MapCanvas" target="Draw.WayType">
+      <point x="122.24999999999997" y="-233.5" />
+      <point x="370.0" y="277.0" />
+      <point x="397.5" y="277.0" />
+      <point x="-11.875" y="13.5" />
+    </edge>
+    <edge source="Draw.LoadColorMap" target="Draw.MapCanvas">
+      <point x="-66.375" y="-68.5" />
+      <point x="292.25" y="794.0" />
+      <point x="166.25000000000003" y="794.0" />
+      <point x="-81.5" y="233.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

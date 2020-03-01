@@ -1,0 +1,135 @@
+.searchfield{
+    -fx-background-color: #2B2B2B;
+    -fx-text-fill: #ffffff;
+}
+
+.searchButton{
+    -fx-background-color: #2B2B2B;
+}
+
+.searchButton:hover{
+    -fx-background-color: #4b4b4b;
+}
+
+.switchButton{
+    -fx-background-color: #2B2B2B;
+}
+
+.switchButton:hover{
+    -fx-background-color: #4b4b4b;
+}
+
+.routeButton{
+    -fx-background-color: #2B2B2B;
+}
+
+.routeButton:hover{
+    -fx-background-color: #4b4b4b;
+}
+
+.pointButton{
+    -fx-background-color: #2B2B2B;
+}
+
+.pointButton:hover{
+    -fx-background-color: #4b4b4b;
+}
+
+.zoomslider .thumb{
+    -fx-background-color: grey;
+}
+.zoomslider .track{
+    -fx-background-color: black;
+}
+.zoomslider .axis{
+    -fx-background-color: darkgrey;
+
+}
+.zoomplus {
+    -fx-background-color: #2B2B2B;
+}
+.zoomplus:hover{
+    -fx-background-color: #4b4b4b;
+}
+.zoomminus {
+    -fx-background-color: #2B2B2B;
+}
+.zoomminus:hover{
+    -fx-background-color: #4b4b4b;
+}
+
+.walkButton{
+    -fx-background-color: #2B2B2B;
+}
+
+.walkButton:hover{
+    -fx-background-color: #4B4B4B;
+}
+
+.carButton{
+    -fx-background-color: #2B2B2B;
+}
+
+.carButton:hover{
+    -fx-background-color: #4B4B4B;
+}
+
+.bikeButton{
+    -fx-background-color: #2B2B2B;
+}
+
+.bikeButton:hover{
+    -fx-background-color: #4B4B4B;
+}
+/*
+Her er alle css mulighederne for listview, listview er sevlve viewet, list-cell er de dropdown celler der er
+fx-scale-x: 0px fjerner scroll-bar
+ */
+.listview{
+    -fx-opacity: 90%;
+    -fx-background-color: #2B2B2B;
+}
+.list-cell{
+    -fx-background-color: #2B2B2B;
+    -fx-text-fill: white;
+}
+.list-cell:hover{
+    -fx-background-color: #33D5FF;
+}
+.list-cell:selected{
+    -fx-background-color:  #33D5FF;
+}
+.listview .scroll-bar{
+    -fx-scale-x: 0px;
+    -fx-background-color: #2B2B2B;
+}
+.routeList{
+    -fx-opacity: 70%;
+    -fx-background-color: #2B2B2B;
+}
+
+.routeList .list-cell:hover{
+    -fx-background-color: #2B2B2B;
+}
+.routeList .list-cell:selected{
+    -fx-background-color:  #2B2B2B;
+}
+.routeList .scroll-bar{
+    -fx-scale-x: 0px;
+    -fx-background-color: #2B2B2B;
+}
+.menubar{
+    -fx-background-color: #2B2B2B;
+}
+.label{
+    -fx-text-fill: white;
+}
+.context-menu{
+    -fx-background-color: #2B2B2B;
+}
+.menu:hover, .menu:showing{
+    -fx-background-color: #4b4b4b;
+}
+.menu-item:focused{
+    -fx-background-color: #4b4b4b;
+}
