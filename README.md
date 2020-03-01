@@ -78,7 +78,7 @@ This mainly included:
  * Dijkstra Shortest-Path Algorithm
  * Directed Edges
  * Edge Weighted Digraph
-\
+
 
 Hence, some algorithms which had to be finely tuned to fit to our programs data, which is a whole system of nodes extracted from .OSM files. 
 
