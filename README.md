@@ -1,21 +1,21 @@
 # PWC Case - React
 **Summary**
-1. (Completed)
+1. (Completed)\
 Create a function that translates all the hobbies into the same naming convention.
 You can choose between the following conventions: camelCase, snake_case or PascalCase.
 This translation should happen inside of a lifecycle hook on component mount.
 
-2. (Completed)
+2. (Completed)\
 Create a function/component that renders only the persons with unique hobbies.
 Display the persons with some added styling.
 
-3. (Completed)
+3. (Completed)\
 Use the useReducer hook to create the following functionality
  - Increase the count to the nearest unequal number
  - Decrease the count to the nearest prime number
  - Increase the count using the fibonacci number sequence
  
-4. (Completed)
+4. (Completed)\
 Add styling to the project.
  
 # PWC Case - Kafka
