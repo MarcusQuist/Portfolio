@@ -1,4 +1,4 @@
-# PWC Case - React
+# PwC Case - React
 ### **Assignment completion status** 
 ***1. (Completed)*** \
 Create a function that translates all the hobbies into the same naming convention.
@@ -29,7 +29,7 @@ Hence, turn off (Errors) in console to properly see the result of question 1. \
 ![alt text](https://i.imgur.com/SISDcHE.png)
 
  
-# PWC Case - Kafka
+# PwC Case - Kafka
 **Producer** \
 It has been assumed that a Kafka Producer may send more than one record.\
 The user is asked to enter a clientId and clientName for each record to be sent.
