@@ -1,5 +1,5 @@
 # PWC Case - React
-### **Assignment completion status**\
+### **Assignment completion status** 
 1. (Completed) \
 Create a function that translates all the hobbies into the same naming convention.
 You can choose between the following conventions: camelCase, snake_case or PascalCase.
@@ -18,7 +18,7 @@ Increase the count using the fibonacci number sequence.
 4. (Completed)\
 Add styling to the project.
 
-### **Summary**\
+### **Summary**
 ***Guide***
 
 ![alt text](https://i.imgur.com/SISDcHE.png)
