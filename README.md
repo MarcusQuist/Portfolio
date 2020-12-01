@@ -19,7 +19,7 @@ Increase the count using the fibonacci number sequence.
 Add styling to the project.
 
 **Summary**\
-![alt text](https://imgur.com/a/rIxJN3F)
+![alt text](https://i.imgur.com/SISDcHE.png)
 
  
 # PWC Case - Kafka
